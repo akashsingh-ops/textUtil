@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>templates working</title>
+  </head>
+  <body>
+    <h1>Welcome to text analyazer. Enter your text</h1>
+    <form action="/analyze" method="get">
+      <textarea name="text" id="" cols="50" rows="2"></textarea>
+      <br />
+      <input type="checkbox" name="removePunc" />Remove Punctuations
+      <input type="checkbox" name="fullcaps" />UPPER CASE
+      <input type="checkbox" name="newlinerremover" />Remove NEW Line
+      <input type="checkbox" name="extraspaceremove" />Remove Extra space
+      <br />
+      <button type="submit">analyaz Text</button>
+    </form>
+    <!-- {{name}}  get name from view -->
+  </body>
+</html>
